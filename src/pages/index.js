@@ -1,5 +1,18 @@
 import React from "react"
+import Layout from "../components/Layout/Layout"
 
 export default function Home() {
-  return <div>Its me Puja!</div>
+  return (
+  <Layout>
+
+<div>
+  index page
+</div>
+  </Layout>
+  )
+
+
+
+  
+
 }
