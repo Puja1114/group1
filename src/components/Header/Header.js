@@ -6,7 +6,7 @@ const Header = () => {
     <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          Navbar
+        GROUP1
         </a>
         <button
           class="navbar-toggler"
@@ -21,18 +21,18 @@ const Header = () => {
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <Link class="nav-link active" aria-current="page" to="/">
+            <li class="btn text-light text-decoration-none">
+              <Link class="text-light text-decoration-none" aria-current="page" to="/">
                 Home
               </Link>
             </li>
-            <li class="nav-item">
-              <Link class="nav-link" to="/about">
+            <li class="btn text-light text-decoration-none">
+              <Link class="text-light text-decoration-none" to="/about">
                 About
               </Link>
             </li>
-            <li class="nav-item">
-              <Link class="nav-link" to="/contact">
+            <li class="btn text-light text-decoration-none">
+              <Link class="text-light text-decoration-none" to="/contact">
                 Contact
               </Link>
             </li>
