@@ -5,7 +5,11 @@ import Layout from "../components/Layout/Layout"
 export default function Contact() {
   return (<Layout>
 
-<form name="contact" netlify>
+<form method="POST"
+            role="presentation"
+            netlify-honeypot="bot-field"
+            data-netlify="true"
+            name="contact">
   <p>
     <label>Name <input type="text" name="name" /></label>
   </p>

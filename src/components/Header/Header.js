@@ -36,6 +36,16 @@ const Header = () => {
                 Contact
               </Link>
             </li>
+            <li class="btn text-light text-decoration-none">
+              <Link class="text-light text-decoration-none" to="/draw">
+                Draw
+              </Link>
+            </li>
+            <li class="btn text-light text-decoration-none">
+              <Link class="text-light text-decoration-none" to="/quiz">
+                Quiz
+              </Link>
+            </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
