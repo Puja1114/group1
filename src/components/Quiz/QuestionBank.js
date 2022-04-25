@@ -8,6 +8,13 @@ const QuestionList = [
   },
   {
     question:
+      "Who is the legal advisor to state government ? ",
+    answers: ["Advocate", "Advocate general", "Judge", "General"],
+    correct: "Advocate general",
+    questionId: "099082",
+  },
+  {
+    question:
       'Where is the train station "Llanfair­pwllgwyngyll­gogery­chwyrn­drobwll­llan­tysilio­gogo­goch"?',
     answers: ["Wales", "Moldova", "Czech Republic", "Denmark"],
     correct: "Czech Republic",
