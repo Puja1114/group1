@@ -46,5 +46,3 @@ const QuestionBox = ({ question, options, selected }) => {
     </div>
   )
 }
-
-export default QuestionBox
